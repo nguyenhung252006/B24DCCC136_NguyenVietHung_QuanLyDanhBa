@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#00796B"
+            android:text="←  Thêm liên hệ"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Họ và tên" android:textStyle="bold"/>
+            <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Ví dụ: Nguyễn Văn An"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Số điện thoại" android:textStyle="bold" android:layout_marginTop="12dp"/>
+            <EditText android:id="@+id/etPhone" android:layout_width="match_parent" android:layout_height="50dp" android:hint="Ví dụ: 0901234567" android:inputType="phone"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nhóm" android:textStyle="bold" android:layout_marginTop="12dp"/>
+            <Spinner android:id="@+id/spGroup" android:layout_width="match_parent" android:layout_height="50dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Giới tính" android:textStyle="bold" android:layout_marginTop="12dp"/>
+            <RadioGroup android:id="@+id/rgGender" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbMale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nam" android:checked="true"/>
+                <RadioButton android:id="@+id/rbFemale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nữ"/>
+                <RadioButton android:id="@+id/rbOther" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Khác"/>
+            </RadioGroup>
+
+            <CheckBox android:id="@+id/cbFavorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Thêm vào yêu thích" android:layout_marginTop="8dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ghi chú" android:textStyle="bold" android:layout_marginTop="12dp"/>
+            <EditText android:id="@+id/etNote" android:layout_width="match_parent" android:layout_height="100dp" android:hint="Nhập ghi chú..." android:gravity="top" android:inputType="textMultiLine"/>
+
+            <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="54dp" android:text="Lưu liên hệ" android:textAllCaps="false" android:backgroundTint="#00796B" android:layout_marginTop="24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

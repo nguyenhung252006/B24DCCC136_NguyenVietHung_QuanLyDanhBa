@@ -1,0 +1,17 @@
+{
+  "phien_ban": "do_kho_v1",
+  "du_lieu": "mo_phong",
+  "so_mau": {
+    "train": 21443,
+    "val": 4629,
+    "test": 4540
+  },
+  "so_van": 3000,
+  "C_chon_theo_val": 0.01,
+  "val_auc": 0.8325,
+  "test_auc": 0.852,
+  "test_brier": 0.1564,
+  "test_accuracy@0.5": 0.7665,
+  "moc_so_sanh_auc(mau<0.5)": 0.6017,
+  "ti_le_thua": 0.4683
+}

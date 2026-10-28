@@ -1,0 +1,16 @@
+{
+  "/Users/admin/Documents/hoc_tap/android_code_learning/hoc_tren_truong/Gold_Rush_Blockchain_v1.3_2026/gold_rush_chain/contracts/CuaHangGoldRush.sol": {
+    "jobHash": "solc-0_8_36-0a09eb851219b4136b3bb07c02e20535cdb4bc3f",
+    "isolated": true,
+    "compilerType": "solc",
+    "artifactPaths": [
+      "/Users/admin/Documents/hoc_tap/android_code_learning/hoc_tren_truong/Gold_Rush_Blockchain_v1.3_2026/gold_rush_chain/artifacts/contracts/CuaHangGoldRush.sol/CuaHangGoldRush.json"
+    ],
+    "buildInfoPath": "/Users/admin/Documents/hoc_tap/android_code_learning/hoc_tren_truong/Gold_Rush_Blockchain_v1.3_2026/gold_rush_chain/artifacts/build-info/solc-0_8_36-0a09eb851219b4136b3bb07c02e20535cdb4bc3f.json",
+    "buildInfoOutputPath": "/Users/admin/Documents/hoc_tap/android_code_learning/hoc_tren_truong/Gold_Rush_Blockchain_v1.3_2026/gold_rush_chain/artifacts/build-info/solc-0_8_36-0a09eb851219b4136b3bb07c02e20535cdb4bc3f.output.json",
+    "typeFilePath": "/Users/admin/Documents/hoc_tap/android_code_learning/hoc_tren_truong/Gold_Rush_Blockchain_v1.3_2026/gold_rush_chain/artifacts/contracts/CuaHangGoldRush.sol/artifacts.d.ts",
+    "wasm": false,
+    "artifactsDirectory": "/Users/admin/Documents/hoc_tap/android_code_learning/hoc_tren_truong/Gold_Rush_Blockchain_v1.3_2026/gold_rush_chain/artifacts",
+    "emitsTypeDeclarations": true
+  }
+}
